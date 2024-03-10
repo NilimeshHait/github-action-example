@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitActionController {
     @GetMapping("/getmessage")
     public String getMessage(){
-        return "Thank you for using me! Happy to help youK";
+        return "Thank you for using me! Happy to help you";
     }
 }
